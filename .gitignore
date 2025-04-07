@@ -1,0 +1,30 @@
+# Altium temporary and backup files
+*.PrjPCBStructure
+*.PcbDocPreview
+*.Dbk
+*.SchDocPreview
+*.PrjPCBStructure
+*.tmp
+*.log
+*.bak
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated output
+/OutputFiles/*
+!/OutputFiles/.gitkeep
+
+# Optional ignore PDFs if auto-generated
+# /PDF/*
+
+# Ignore user-specific settings
+*.~*
+
+# Ignore compiled objects or temp caches
+*.obj
+*.cache
+*.class
